@@ -1,0 +1,15 @@
+str
+int
+float
+complex
+x = complex(1j)
+list
+tuple
+range
+dict
+set
+fronzset
+bool
+bytes
+bytearray
+memoryview
