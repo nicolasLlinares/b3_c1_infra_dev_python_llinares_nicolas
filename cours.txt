@@ -1,0 +1,108 @@
+"""
+boucle permettant de récupérer chaque lettre d'un mot
+"""
+
+"""
+for x in "cerise":
+    print(x)
+"""
+
+"""
+Condition permettant de voir si une chaine de caratère et dans une variable
+a = "maison"
+b = "ma"
+
+if b in a:
+    print("ma est dans " + a)
+else:
+    print(b + " n'est pas dans " + a)
+"""
+"""
+supprime les espace avant et apres la chaine de caratère
+c = " Voila un exemple "
+print(c.strip())
+"""
+
+"""
+remplace une valeur par une autre
+d = " Voila un exemple"
+print(d.replace("a","l"))
+"""
+"""
+exemple de split
+a = "Test de la chaine, par exemple"
+b = a.splt(",")
+print(b)
+"""
+
+
+
+"""
+#exemple de formatarge
+age = 40
+txt = "Mon nom est Vincent et j'ai {}"
+print(txt.format(age))
+"""
+"""
+class maClasse():
+    def __len__(self):
+        return 0
+monObjet = maClasse
+print(bool(monObjet))
+"""
+"""
+savoir si c'est le bon type 
+a= "test"
+if type(a) == str:
+    print(a + "est une chaine de caractère")
+else:
+    print(a + " n'est aps une chaine decaractère")
+""" 
+"""
+maliste = ["pomme", "banane", "fraise"]
+maliste[2] = "poire"
+print(maliste)
+"""
+"""
+la méthode extend
+maliste =["banane","poire"]
+exemple = ["pomme"]
+maliste.extend(exemple)
+print(maliste)
+""" 
+"""
+la méthode remove
+maliste =["banane","poire"]
+maliste.remove("banane")
+""" 
+
+"""
+la méthode pop, supprimer de la liste l'élément banane
+maliste =["banane","poire"]
+maliste.pop(0)
+""" 
+
+"""
+le mot clef del supprime la liste
+maliste =["banane","poire","fraise"]
+del maliste
+""" 
+
+"""
+vider une liste
+maliste.clear()
+""" 
+
+"""
+Exercice : ordonner une chaine de caractère
+
+chaine= "Vincent, Pierre , Aline, Marie, Lucien"
+chaine_list=chaine.split(", ")
+chaine_list.sort()
+chaine_ordonne= ", ".join(chaine_list)
+print(chaine_ordonne)
+""" 
+Exercice 
+liste = ["teqef","sljebv","jfqbe"]
+for x in liste:
+    print(x)
